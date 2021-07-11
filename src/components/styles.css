@@ -1,0 +1,42 @@
+.periodic-table {
+  display: grid;
+  grid-template-columns: repeat(18, 70px);
+  grid-template-rows: repeat(10, 70px);
+}
+
+.element {
+  background: transparent;
+  border: 1px solid #aaa;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+  transition: 0.7s;
+}
+.element:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.color-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.small-font {
+  font-size: 0.7rem;
+}
+
+.smaller-font {
+  font-size: 0.54rem;
+}
+
+.vertical-text {
+  -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+  -webkit-text-orientation: mixed;
+          text-orientation: mixed;
+}/*# sourceMappingURL=styles.css.map */
